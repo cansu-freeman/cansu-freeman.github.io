@@ -1,6 +1,6 @@
 ## Welcome to GitHub Pages
 
-<a href = "testpage.md">Test</a>
+<a href = "testpage.html">Test</a>
 
 You can use the [editor on GitHub](https://github.com/cansu-freeman/cansu-freeman.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
