@@ -21,8 +21,8 @@ It all starts with a *situation* or a problem. Then we must simplify and represe
 As you can see, there are several real-world applications that modelled with mathematics. But before we dive deep into these applications, let's refresh our skills in differential equations and linear algebra. Throughout the notes, I assume everyone knows calculus.
 
 ### Refresher Notes:
-Linear Algebra - add link
-Differential Equations -add link
+Linear Algebra (add link)
+Differential Equations (add link)
 
 
 
