@@ -1,4 +1,4 @@
-## Deterministic Math Models
+## [Deterministic Math Models]("courses/deterministic_models/course_page.md")
 
 ## Mathematical and Statistical Computing
 
