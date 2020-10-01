@@ -6,7 +6,7 @@ It all starts with a *situation* or a problem. Then we must simplify and represe
 
 
 ![modeling cycle](https://media.springernature.com/original/springer-static/image/chp%3A10.1007%2F978-3-030-11069-7_4/MediaObjects/456589_1_En_4_Fig4_HTML.png)
-*Source of Image: Vorhölter K., Greefrath G., Borromeo Ferri R., Leiß D., Schukajlow S. (2019) Mathematical Modelling. In: Jahnke H., Hefendehl-Hebeker L. (eds) Traditions in German-Speaking Mathematics Education Research. ICME-13 Monographs. Springer, Cham.*
+*<small>Source of Image: Vorhölter K., Greefrath G., Borromeo Ferri R., Leiß D., Schukajlow S. (2019) Mathematical Modelling. In: Jahnke H., Hefendehl-Hebeker L. (eds) Traditions in German-Speaking Mathematics Education Research. ICME-13 Monographs. Springer, Cham.</small>*
 
 
 
