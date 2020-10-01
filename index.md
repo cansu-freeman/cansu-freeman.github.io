@@ -1,5 +1,3 @@
-## About Me
-
 ## Deterministic Math Models
 
 ## Mathematical and Statistical Computing
