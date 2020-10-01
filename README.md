@@ -2,6 +2,8 @@
 
 This is the first github pages site that I've created. It's a place for my math notes while in grad school. My goal is to use this place to help me retain the information I learn throughout my time in school, and also to use it as a reference for when I don't* retain something :)
 
+The classes I'm taking this Fall are Deterministic Mathematical Models, Probability Theory and Applications, and Mathematical/Statistical Computing. Once I have some notes typed up, I'll put a "table of contents" type of list here.
+
 Please feel free to use as you wish! 
 
 The layout is the simple "Minimal" jekyll theme that is supported by gh pages.
