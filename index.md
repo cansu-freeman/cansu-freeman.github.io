@@ -1,5 +1,5 @@
 # The Notes
-
+-------
 
 ## [Deterministic Math Models](courses/deterministic_models/course_page.md)
 
