@@ -38,5 +38,15 @@ Integrating Factors of ![firstorder](https://latex.codecogs.com/gif.latex?\frac{
 ![math](https://latex.codecogs.com/gif.latex?\frac{d(\mu&space;y)}{dt}&space;=&space;\mu&space;a(t)y&space;&plus;&space;\mu&space;\frac{dy}{dt})
 
 
+q.e.d
+
+This lemma is often a missed middle step when solving differential equations with the integrating factors technique. We use the understanding of this often as you'll see below. Oh by the way, the greet letter: ![mu](https://latex.codecogs.com/gif.latex?\mu).
+
+
+Below is the framwork for how to solve first order linear non-homogenous differential equations using the **integrating factor method:**
+
+1. Multuply both sides by the integrating factor ![mu](https://latex.codecogs.com/gif.latex?\mu) and apply the lemma to rewrite the left-hand side as ![lhs](https://latex.codecogs.com/gif.latex?\frac{d(\mu&space;y)}{dy}).
+2. Integrate both sides with respect to t. By the lemma, the left hand side turns into simply ![mu](https://latex.codecogs.com/gif.latex?\mu)y.
+3. Solve for y. 
 
 
