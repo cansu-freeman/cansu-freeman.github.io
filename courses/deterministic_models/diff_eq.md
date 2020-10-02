@@ -96,6 +96,4 @@ If ![greater0](https://latex.codecogs.com/gif.latex?b^{2}&space;-4ac&space;>&spa
 
 If ![less0](https://latex.codecogs.com/gif.latex?b^{2}&space;-4ac&space;<&space;0), then there will be two solutions with complex roots.
 
-**Theorem:** Consider the second order linear homogeneous differential equation ay''+ by' + cy = 0. Suppose ![greater0](https://latex.codecogs.com/gif.latex?b^{2}&space;-4ac&space;>&space;0), then ![quadraticeq](https://latex.codecogs.com/gif.latex?r_{1}&space;=&space;\frac{-b&space;-&space;\sqrt{b^{2}&space;-4ac}}{2a}) and ![quadraticeq](https://latex.codecogs.com/gif.latex?r_{2}&space;=&space;\frac{-b&space;plus&space;\sqrt{b^{2}&space;-4ac}}{2a}). Then the general solution is of the form:
-
-![gensol](https://latex.codecogs.com/gif.latex?y&space;=&space;c_{1}e^{r_{1}t}&space;&plus;&space;c_{2}e^{r_{2}t})
+**Theorem:** Consider the second order linear homogeneous differential equation ay''+ by' + cy = 0. Suppose ![greater0](https://latex.codecogs.com/gif.latex?b^{2}&space;-4ac&space;>&space;0), then ![quadraticeq](https://latex.codecogs.com/gif.latex?r_{1}&space;=&space;\frac{-b&space;-&space;\sqrt{b^{2}&space;-4ac}}{2a}) and ![quadraticeq](https://latex.codecogs.com/gif.latex?r_{2}&space;=&space;\frac{-b&space;plus&space;\sqrt{b^{2}&space;-4ac}}{2a}). Then the general solution is of the form: ![gensol](https://latex.codecogs.com/gif.latex?y&space;=&space;c_{1}e^{r_{1}t}&space;&plus;&space;c_{2}e^{r_{2}t})
