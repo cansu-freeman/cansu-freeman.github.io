@@ -63,3 +63,39 @@ Below is the framework for solving seperable differential equations:
 2. Solve for y
 
 ### [Solved Examples of Seperable Differential Equations](SeperableDE.pdf)
+
+
+--------------
+## 3. Second Order Linear Differential Equations
+
+A **second-order linear** differential equation is one that involves have the second derivative within the equation. The simplest type of second order linear homogeneous differential equation are those with **constant coefficiants**. Generally, this looks like ay''+ by' + cy = 0, where a,b,c are constants.
+
+We will seek solutions of the form y = exp(rt), where r is a real number. Let's consider what it means for y = exp(rt) to solve ay''+ by' + cy = 0.
+We compute the first and second derivative of y:
+
+![e^rt](https://latex.codecogs.com/gif.latex?y&space;=&space;e^{rt})
+
+![re^rt](https://latex.codecogs.com/gif.latex?y'&space;=&space;re^{rt})
+
+![r^2e^rt](https://latex.codecogs.com/gif.latex?y''&space;=&space;r^{2}e^{rt})
+
+Then if we plug these into ay''+ by' + cy = 0, we have: ![math](https://latex.codecogs.com/gif.latex?a&space;r^{2}y&space;&plus;&space;bry&space;&plus;&space;cy&space;=&space;0). 
+
+Factoring y on the leftside, we have: [chareq](https://latex.codecogs.com/gif.latex?a&space;r^{2}&space;&plus;&space;by&space;&plus;&space;c&space;=&space;0).
+
+Time for a definition. Given the differential equation with constant coefficients, ay''+ by' + cy = 0, the equation [chareq](https://latex.codecogs.com/gif.latex?a&space;r^{2}&space;&plus;&space;by&space;&plus;&space;c&space;=&space;0) is teh **characteristic equation**. A root of the characterstic equation is any number, r, that solves it. 
+
+**Preposition**: A function y = exp(rt) is a solution of ay''+ by' + cy = 0 if and only id r is a root of the characteristic equation. The infamous quadratic 
+equation gives the roots to the characteristic equation. 
+
+![quadraticeq](https://latex.codecogs.com/gif.latex?r&space;=&space;\frac{-b&space;\pm&space;\sqrt{b^{2}&space;-4ac}}{2a})
+
+If ![equals0](https://latex.codecogs.com/gif.latex?b^{2}&space;-4ac&space;=&space;0), then there is only one solution.
+
+If ![greater0](https://latex.codecogs.com/gif.latex?b^{2}&space;-4ac&space;>&space;0), then both roots will solve it.
+
+If ![less0](https://latex.codecogs.com/gif.latex?b^{2}&space;-4ac&space;<&space;0), then there will be two solutions with complex roots.
+
+**Theorem:** Consider the second order linear homogeneous differential equation ay''+ by' + cy = 0. Suppose ![greater0](https://latex.codecogs.com/gif.latex?b^{2}&space;-4ac&space;>&space;0), then ![quadraticeq](https://latex.codecogs.com/gif.latex?r_{1}&space;=&space;\frac{-b&space;-&space;\sqrt{b^{2}&space;-4ac}}{2a}) and ![quadraticeq](https://latex.codecogs.com/gif.latex?r_{2}&space;=&space;\frac{-b&space;plus&space;\sqrt{b^{2}&space;-4ac}}{2a}). Then the general solution is of the form:
+
+[gensol](https://latex.codecogs.com/gif.latex?y&space;=&space;c_{1}e^{r_{1}t}&space;&plus;&space;c_{2}e^{r_{2}t})
