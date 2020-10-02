@@ -83,9 +83,9 @@ Then if we plug these into ay''+ by' + cy = 0, we have: ![math](https://latex.co
 
 Factoring y on the leftside, we have: [chareq](https://latex.codecogs.com/gif.latex?a&space;r^{2}&space;&plus;&space;by&space;&plus;&space;c&space;=&space;0).
 
-Time for a definition. Given the differential equation with constant coefficients, ay''+ by' + cy = 0, the equation [chareq](https://latex.codecogs.com/gif.latex?a&space;r^{2}&space;&plus;&space;by&space;&plus;&space;c&space;=&space;0) is teh **characteristic equation**. A root of the characterstic equation is any number, r, that solves it. 
+Time for a definition. Given the differential equation with constant coefficients, ay''+ by' + cy = 0, the equation ![chareq](https://latex.codecogs.com/gif.latex?a&space;r^{2}&space;&plus;&space;by&space;&plus;&space;c&space;=&space;0) is teh **characteristic equation**. A root of the characterstic equation is any number, r, that solves it. 
 
-**Preposition**: A function y = exp(rt) is a solution of ay''+ by' + cy = 0 if and only id r is a root of the characteristic equation. The infamous quadratic 
+**Preposition**: A function y = exp(rt) is a solution of ay''+ by' + cy = 0 if and only if r is a root of the characteristic equation. The infamous quadratic 
 equation gives the roots to the characteristic equation. 
 
 ![quadraticeq](https://latex.codecogs.com/gif.latex?r&space;=&space;\frac{-b&space;\pm&space;\sqrt{b^{2}&space;-4ac}}{2a})
