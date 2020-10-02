@@ -5,9 +5,6 @@ Please note that this part of the notes are only supposed to be a refresher. The
 
 ---------
 ## 1. First Order Linear Differential Equations
-<details>
- <summary>Expand first order linear differential equations</summary>
-
 
 A first-order linear differential equation is one with which can be written in the standard form: ![firstorder](https://latex.codecogs.com/gif.latex?\frac{dy}{dt}&space;&plus;a(t)y&space;=&space;b(t)), where a(t) and b(t) are continuous. If b(t) = 0, we call this a **homogenous** first-order lienar differential equation.
 
@@ -52,14 +49,11 @@ Below is the framework for how to solve first order linear non-homogenous differ
 1. Multuply both sides by the integrating factor ![mu](https://latex.codecogs.com/gif.latex?\mu) and apply the lemma to rewrite the left-hand side as ![lhs](https://latex.codecogs.com/gif.latex?\frac{d(\mu&space;y)}{dy}).
 2. Integrate both sides with respect to t. By the lemma, the left hand side turns into simply ![mu](https://latex.codecogs.com/gif.latex?\mu)y.
 3. Solve for y. 
-</details>
 
 ### [Solved Examples of First Order Linear Differential Equations](FirstOrderLinearDE.pdf)
 
 --------
 ## 2. Seperable Equations
-<details>
- <summary>Expand seperable differential equations</summary>
 
 A **seperable** differential equation is one that can be written in the standard form: ![seperable](https://latex.codecogs.com/gif.latex?f(y)&space;\frac{dy}{dt}&space;=&space;g(t)), where f is a function of y. The goal is to *seperate* variables so the y's are on the left and the t's are on the right. 
 
@@ -67,6 +61,5 @@ Below is the framework for solving seperable differential equations:
 
 1. Integrate both sides with respect to t. (This assumes it is already in standard form)
 2. Solve for y
-</details>
 
 ### [Solved Examples of Seperable Differential Equations](SeperableDE.pdf)
