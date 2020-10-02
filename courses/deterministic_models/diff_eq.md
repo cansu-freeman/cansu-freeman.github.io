@@ -1,7 +1,7 @@
 # Differential Equations
 
 
-A **differential equation** is simply an equation which involves an unknown function and one or more of its derivatives. For example: *y' = x + 4y -12*.
+Please note that this part of the notes are only supposed to be a refresher. They might not include everything that one would typically learn in a differential equation class. A **differential equation** is simply an equation which involves an unknown function and one or more of its derivatives. For example: *y' = x + 4y -12*.
 
 ### First Order Linear Differential Equations
 ---------------------------------------------
