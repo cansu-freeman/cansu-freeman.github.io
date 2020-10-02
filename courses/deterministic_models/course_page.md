@@ -20,7 +20,7 @@ As you can see, there are several real-world applications that modelled with mat
 ### Refresher Notes:
 Linear Algebra (add link) 
 
-[Differential Equations](differential_eq.md)
+[Differential Equations](diff_eq.md)
 
 
 
