@@ -1,4 +1,5 @@
-  # Differential Equations
+# Differential Equations
+
 
 A **differential equation** is simply an equation which involves an unknown function and one or more of its derivatives. For example: *y' = x + 4y -12*.
 
