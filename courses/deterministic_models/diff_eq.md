@@ -1,7 +1,10 @@
 # Differential Equations
+(in a nutshell)
 
 
-Please note that this part of the notes are only supposed to be a refresher. They might not include everything that one would typically learn in a differential equation class. A **differential equation** is simply an equation which involves an unknown function and one or more of its derivatives. For example: *y' = x + 4y -12*.
+Please note that this part of the notes are only supposed to be a refresher. They might not include everything that one would typically learn in a differential equation class. 
+
+A **differential equation** is simply an equation which involves an unknown function and one or more of its derivatives. For example: *y' = x + 4y -12*.
 
 ---------
 ## 1. First Order Linear Differential Equations
@@ -66,7 +69,7 @@ Below is the framework for solving seperable differential equations:
 
 
 --------------
-## 3. Second Order Linear Differential Equations
+## 3. Second Order Linear Differential Equations with Constant Coefficients
 
 A **second-order linear** differential equation is one that involves have the second derivative within the equation. The simplest type of second order linear homogeneous differential equation are those with **constant coefficiants**. Generally, this looks like ay''+ by' + cy = 0, where a,b,c are constants.
 
@@ -83,7 +86,7 @@ Then if we plug these into ay''+ by' + cy = 0, we have: ![math](https://latex.co
 
 Factoring y on the leftside, we have: [chareq](https://latex.codecogs.com/gif.latex?a&space;r^{2}&space;&plus;&space;by&space;&plus;&space;c&space;=&space;0).
 
-Time for a definition. Given the differential equation with constant coefficients, ay''+ by' + cy = 0, the equation ![chareq](https://latex.codecogs.com/gif.latex?a&space;r^{2}&space;&plus;&space;by&space;&plus;&space;c&space;=&space;0) is teh **characteristic equation**. A root of the characterstic equation is any number, r, that solves it. 
+Time for a definition. Given the differential equation with constant coefficients, ay''+ by' + cy = 0, the equation ![chareq](https://latex.codecogs.com/gif.latex?a&space;r^{2}&space;&plus;&space;by&space;&plus;&space;c&space;=&space;0) is the **characteristic equation**. A root of the characterstic equation is any number, r, that solves it. 
 
 **Preposition**: A function y = exp(rt) is a solution of ay''+ by' + cy = 0 if and only if r is a root of the characteristic equation. The infamous quadratic 
 equation gives the roots to the characteristic equation. 
@@ -96,4 +99,33 @@ If ![greater0](https://latex.codecogs.com/gif.latex?b^{2}&space;-4ac&space;>&spa
 
 If ![less0](https://latex.codecogs.com/gif.latex?b^{2}&space;-4ac&space;<&space;0), then there will be two solutions with complex roots.
 
+### Case 1: ![greater0](https://latex.codecogs.com/gif.latex?b^{2}&space;-4ac&space;>&space;0)
+
 **Theorem:** Consider the second order linear homogeneous differential equation ay''+ by' + cy = 0. Suppose ![greater0](https://latex.codecogs.com/gif.latex?b^{2}&space;-4ac&space;>&space;0), then ![quadraticeq](https://latex.codecogs.com/gif.latex?r_{1}&space;=&space;\frac{-b&space;-&space;\sqrt{b^{2}&space;-4ac}}{2a}) and ![quadraticeq](https://latex.codecogs.com/gif.latex?r_{2}&space;=&space;\frac{-b&space;plus&space;\sqrt{b^{2}&space;-4ac}}{2a}). Then the general solution is of the form: ![gensol](https://latex.codecogs.com/gif.latex?y&space;=&space;c_{1}e^{r_{1}t}&space;&plus;&space;c_{2}e^{r_{2}t})
+
+### [Solved Examples of Second Order Homogeneous Linear Differential Equations](secondOrderHomog.pdf)
+
+
+### Case 2: ![less0](https://latex.codecogs.com/gif.latex?b^{2}&space;-4ac&space;<&space;0)
+
+A complex valued function of a real variable ![complexmaping](https://latex.codecogs.com/gif.latex?f:\mathbb{R}\rightarrow&space;\mathbb{C}), which inputs real numbers and outputs complex numbers.
+
+In general, any function ![complexmaping](https://latex.codecogs.com/gif.latex?f:\mathbb{R}\rightarrow&space;\mathbb{C}) can be written as ![complexeq](https://latex.codecogs.com/gif.latex?f&space;=&space;u&space;&plus;&space;iv), where u,v map reals to reals. 
+
+**Def:** ![complexeq](https://latex.codecogs.com/gif.latex?\inline&space;f&space;=&space;u&space;&plus;&space;iv) be a complex valued function. We define the derivative of f to be the complex valued function ![complexeq](https://latex.codecogs.com/gif.latex?\inline&space;f'&space;=&space;u'&space;&plus;&space;iv').
+
+**Def:** The exponential function ![expmapping](https://latex.codecogs.com/gif.latex?\inline&space;e:&space;\mathbb{C}\rightarrow&space;\mathbb{C}) is defined by ![e_x](https://latex.codecogs.com/gif.latex?\inline&space;e^{x}&space;=&space;\sum&space;\frac{x^{n}}{n!}). It turns out that by considering the power-series associated with sin, cos, we can show that ![e_ir](https://latex.codecogs.com/gif.latex?\inline&space;e^{ir}&space;=&space;cosr&space;&plus;isinr,&space;r\in&space;\mathbb{R})
+
+Now consider a +ib, any complex number.  Then, ![exp](https://latex.codecogs.com/gif.latex?\inline&space;e^{a&space;&plus;ib}&space;=&space;e^{a}\cdot&space;e^{ib}&space;=&space;e^{a}(cosb&space;&plus;isinb))
+
+In the Case 1, we had that the solutions to the characteristic equation were a result of finding the roots to the charactersistic equations.![quadeq](https://latex.codecogs.com/gif.latex?\inline&space;r_{1,2}=&space;\frac{-b\pm\sqrt{b^{2}&space;-&space;4ac}}{2a}). In Case 2, we will have the same result, but we will convert the complex root into a real number using the definition above.
+
+
+**Lemma:** Suppose y = u + iv is a solution to ay''+ by' + cy = 0. Then u, v are also solutions (given that they are real numbers).
+
+For the proof, take the first and second derivative of y = u + iv. Then plug the y values in ay''+ by' + cy = 0.  By factoring and grouping like-terms, we end up with au''+ bu' + cu = 0  AND  av''+ bv' + cv = 0, which implies that u and v solve the differential equation.
+
+This the general solution to a complex valued second order differential equation is: ![sol](https://latex.codecogs.com/gif.latex?\inline&space;y&space;=&space;c_1u&space;&plus;&space;c_2v). 
+
+
+### [Solved Examples of Second Order Complex-Valued Linear Differential Equations](ComplexRootDE.pdf)
