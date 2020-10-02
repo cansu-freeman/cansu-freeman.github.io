@@ -69,7 +69,7 @@ Below is the framework for solving seperable differential equations:
 
 
 --------------
-## 3. Second Order Linear Differential Equations with Constant Coefficients
+## 3. Second Order Linear Differential Equations with Constant Coefficients (homogeneous)
 
 A **second-order linear** differential equation is one that involves have the second derivative within the equation. The simplest type of second order linear homogeneous differential equation are those with **constant coefficiants**. Generally, this looks like ay''+ by' + cy = 0, where a,b,c are constants.
 
@@ -125,7 +125,16 @@ In the Case 1, we had that the solutions to the characteristic equation were a r
 
 For the proof, take the first and second derivative of y = u + iv. Then plug the y values in ay''+ by' + cy = 0.  By factoring and grouping like-terms, we end up with au''+ bu' + cu = 0  AND  av''+ bv' + cv = 0, which implies that u and v solve the differential equation.
 
-This the general solution to a complex valued second order differential equation is: ![sol](https://latex.codecogs.com/gif.latex?\inline&space;y&space;=&space;c_1u&space;&plus;&space;c_2v). 
+The general solution to a complex valued second order differential equation is: ![sol](https://latex.codecogs.com/gif.latex?\inline&space;y&space;=&space;c_1u&space;&plus;&space;c_2v). 
 
 
 ### [Solved Examples of Second Order Complex-Valued Linear Differential Equations](ComplexRootDE.pdf)
+
+### Case 3: ![equals0](https://latex.codecogs.com/gif.latex?b^{2}&space;-4ac&space;=&space;0)
+
+Consider the case where ![equals0](https://latex.codecogs.com/gif.latex?b^{2}&space;-4ac&space;=&space;0). Then r = -b/2a. So ONE solution is y = exp(rt) = exp(-bt/2a). But we need two solutions since we are discussing second order second order differential equations. It turns out that ![sol2](https://latex.codecogs.com/gif.latex?\inline&space;y_2&space;=&space;te^{r_1t}).
+
+Without too much detail, as this is a refresher after all, the two solutions ![sol1](https://latex.codecogs.com/gif.latex?\inline&space;y_1&space;=&space;e^{r_1t}) and ![sol2](https://latex.codecogs.com/gif.latex?\inline&space;y_2&space;=&space;te^{r_1t}) are linearly independent because the Wronskian is not equal to 0.
+
+### [Solved Examples of Second Order Repeated Roots Linear Differential Equations](RepeatedRootsDE.pdf)
+
