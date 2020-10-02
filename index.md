@@ -2,6 +2,8 @@
 -------
 
 ## [Deterministic Math Models](courses/deterministic_models/course_page.md)
+Topics:
+- [Differential Equations](courses/deterministic_models/diff_eq.md)
 
 ## [Mathematical and Statistical Computing](courses/mathstat_computing/course_page.md)
 
