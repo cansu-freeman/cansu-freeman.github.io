@@ -2,7 +2,7 @@
 (in a nutshell)
 
 
-Please note that this part of the notes are only supposed to be a refresher. They might not include everything that one would typically learn in a differential equation class. 
+Please note that this part of the notes are only supposed to be a refresher. They do not include everything that one would typically learn in a differential equation class. There are many theorems that are important and left out for the sake of brevity.
 
 A **differential equation** is simply an equation which involves an unknown function and one or more of its derivatives. For example: *y' = x + 4y -12*.
 
@@ -132,7 +132,7 @@ The general solution to a complex valued second order differential equation is: 
 
 ### Case 3: ![equals0](https://latex.codecogs.com/gif.latex?b^{2}&space;-4ac&space;=&space;0)
 
-Consider the case where ![equals0](https://latex.codecogs.com/gif.latex?b^{2}&space;-4ac&space;=&space;0). Then r = -b/2a. So ONE solution is y = exp(rt) = exp(-bt/2a). But we need two solutions since we are discussing second order second order differential equations. It turns out that ![sol2](https://latex.codecogs.com/gif.latex?\inline&space;y_2&space;=&space;te^{r_1t}).
+Consider the case where ![equals0](https://latex.codecogs.com/gif.latex?b^{2}&space;-4ac&space;=&space;0). Then r = -b/2a. So ONE solution is y = exp(rt) = exp(-bt/2a). But we need two solutions since we are discussing second order second order differential equations. It turns out that ![sol2](https://latex.codecogs.com/gif.latex?\inline&space;y_2&space;=&space;te^{r_1t}) is also a linearly independent solution.
 
 Without too much detail, as this is a refresher after all, the two solutions ![sol1](https://latex.codecogs.com/gif.latex?\inline&space;y_1&space;=&space;e^{r_1t}) and ![sol2](https://latex.codecogs.com/gif.latex?\inline&space;y_2&space;=&space;te^{r_1t}) are linearly independent because the Wronskian is not equal to 0.
 
